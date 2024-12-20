@@ -15,7 +15,7 @@ export const getUpcomingMovies = async () => {
         throw error;
     }
 };
-
+// Authentication lab - exercise (genres)
 export const getGenres = async () => {
     try {
         const response = await fetch(
