@@ -2,10 +2,10 @@
   "name": "movies-api",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "start": "babel-node index.js",
     "dev": "babel-node ./initialise-dev/initDevDB.js && nodemon --exec npm start"
-},
+  },
   "author": "Conor Coker",
   "license": "ISC",
   "description": "",
@@ -21,6 +21,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^8.9.2"
+    "mongoose": "^8.9.2",
+    "node-fetch": "^2.7.0"
   }
 }
